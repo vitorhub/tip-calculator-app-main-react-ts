@@ -1,0 +1,204 @@
+.container{
+    width: 100%;
+    height: 95vh;
+    background-color: #C5E4E7;
+    text-align: center;
+    padding: 25px;    
+}
+.tituloprincipal{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    margin: 0 auto;
+    padding: 25px 0 0 0;
+    font-size: 1.5em;
+}
+.tituloprincipal h3{
+
+}
+.secaoumedois{
+    max-width: 570px;
+    height: 300px;
+    background-color: #FFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.secaoum{
+    width: 258px;
+    height: 260px;
+    background-color: #FFF;
+    margin: 0 0 0 15px;
+    border-radius: 20px;
+}
+.secaodois{
+    width: 258px;
+    height: 260px;
+    background-color: #00474B;
+    margin: 15px 15px;
+    border-radius: 20px;
+}
+.fieldcampotip{
+    width: 65px;
+    height: 25px;
+    text-align: center;
+    font-size: 1.35em;
+    outline: none;
+    border-radius: 5px;
+}
+.fieldcampotip:focus{
+    border: 1px solid #61ACA3;
+}
+/* para imput number */
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.bill{  /* campo bill ********************************************/
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    margin: 3%;
+    padding: 7px; padding-top: 0;
+} .bill .titulosecaoum{    text-align: left;  font-size: 1em;}
+.bill .totalbill{
+    height: 30px;
+    padding: 5px; padding-right: 15px;
+    text-align: right;
+    font-size: 1.35em;
+    outline: none;
+    border-radius: 5px;
+}
+.bill .totalbill:focus{
+    border: 1px solid #61ACA3;
+}
+.tip{   /* tip ********************************************/
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    margin: 3%;
+    padding: 7px; padding-top: 0;
+} .tip .titulosecaoum{    text-align: left;font-size: 1em; }
+.tip .botoes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-weight: 1004;
+}
+.tip .fieldcampotip{
+    display: flex;
+    flex-wrap: wrap;
+    width: 29%;
+    height: 25px;
+    margin: 5px;
+}
+/* npeople ********************************************/
+.npeople{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    margin: 3%;
+    padding: 7px; padding-top: 0;
+} .npeople .titulosecaoum{    text-align: left; font-size: 1em;}
+.npeople .labelewarning{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1em;
+}
+.npeople .labelewarning small{
+    color: #C9806E;
+}
+.npeople .fieldnpeople{
+    height: 30px;
+    padding: 5px; padding-right: 15px;
+    text-align: right;
+    font-size: 1.35em;
+    outline: none;
+    border-radius: 5px;
+}
+.npeople .fieldnpeople:focus{
+    border: 1px solid #B47E6F;
+}
+/* secao dois ********************************************/
+.secaodois .tipbyperson, .secaodois .totalbyperson{
+    width: 85%;
+    margin: 20px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.secaodois .tipbyperson div h3{ /* TIP **************** */
+    color:#FFF;
+    font-size: 1.2em;
+}
+.secaodois .tipbyperson div small{
+    color: #FFF;
+}
+.secaodois .tipbyperson h1{
+    font-size: 30px;
+    color: #2AC0AD;
+}
+.secaodois .totalbyperson div h3{ /* TOTAL **************** */
+    color:#FFF;
+    font-size: 1.2em;
+}
+.secaodois .totalbyperson div small{
+    color: #FFF;
+}
+.secaodois .totalbyperson h1{
+    font-size: 30px;
+    color: #2AC0AD;
+}
+
+/* RESET   ***************** */
+.secaodois .reset{
+    background-color: #9FE8DF;
+    width: 85%;
+    height: 30px;
+    margin: 20% auto 0 auto;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+.secaodois .reset:hover{
+    cursor: pointer;
+}
+
+@media (max-width: 375px){
+    .container{
+        width: 100%;
+        height: 95vh;
+    }
+    .tituloprincipal{
+        background-color: #C5E4E7;
+        width: 100%;
+        height: 15%;
+        padding: 10px;
+        margin-top: 0;
+    }
+    .secaoumedois{
+        width: 100%;
+        height: fit-content;
+        flex-direction: column;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    .secaoum{
+        width: 100%;
+        height: 47%;
+        margin: -15px 0 0 0;
+        z-index: 10;
+    }
+    .secaodois{
+        width: 100%;
+        height: 47%;
+        background-color: darkcyan;
+        margin: 0;
+    }
+    .secaodois .reset{
+        margin-top: 20px;
+    }
+}

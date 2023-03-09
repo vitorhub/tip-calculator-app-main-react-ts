@@ -1,0 +1,19 @@
+.botaotip{
+        width: 29%;
+        height: 25px;
+        margin: 5px;
+        background-color: #00474B;
+        color: white;
+        border-radius: 5px;
+        font-size: 1.35em;
+        font-weight: 100;
+        outline: none;
+}
+.botaotip:hover{
+        background-color: #A1E7DF;
+        color: #000;
+        cursor: pointer;
+}
+.botaotip:focus{
+        background-color: #26C2AD;
+}
