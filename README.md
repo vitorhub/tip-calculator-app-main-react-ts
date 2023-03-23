@@ -1,46 +1,71 @@
-# Getting Started with Create React App
+# Desafio Tip Calculator do site frontendmentor.io
+<img width=470 src="src/outros/images/tipcalculator.gif">
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descrição:
+Página responsiva para diversas telas. Finalidade do site calcular o total pago por individuo e o total de gorjeta pago individualmente para o caso de ser uma pessoa ou mais\
+<a href="https://femtipcalculator.netlify.app/">Link do site, veja o responsivo</a>
 
-## Available Scripts
 
-In the project directory, you can run:
+## Indice
+- <a href="#aprendizagens">Aprendizagens</a>
+- <a href="#funcionalidades"> Funcionalidades </a>
+- <a href="#tecnologias"> Tecnologias </a>
+- <a href="#rodar"> Rodar </a>
+- <a href="#colaboradores"> Colaboradores </a>
+- <a href="#next"> Next </a>
+- <a href="#contato"> Contatos </a>
 
-### `npm start`
+## Aprendizagens
+- [x] Utilização do redux com acesso aos ultimos estados evoluidos.
+- [x] Muita componentização individual tendo que compartilhar estaodos e funções de modificações neles.
+- [x] Desenvolvido todo com flex box.
+- [x] Tipagem por inferência com algumas execeções como o store do redux.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Funcionalidades
+- [x] Inserção do total pago não incluindo gorjeta
+- [x] Escolha da quantia de gorjeta por componentes pré-definidos e um componente personalizado.
+- [x] Escolha da quantidade de pessoas a dividir o montante e gorjeta.
+- [x] Exibição da gorjeta paga individual.
+- [x] Exibição do total pago individual.
+- [x] Botão reset para zerar todos os estados.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+## Tecnologias
+1. [React](https://pt-br.reactjs.org)
+2. [Flexbox CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox/)
+3. [Typescript](https://www.typescriptlang.org/docs/)
+4. [Redux](https://https://redux.js.org/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Rodar
+```bash
+# Projeto inicializado com Create React App
+# https://github.com/facebook/create-react-app
 
-### `npm run build`
+# Clone o repositório na pasta desejada
+$ git clone https://github.com/vitorhub/tip-calculator-app-main-react-ts.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Acesse a pasta do projeto no seu terminal
+$ cd tip-calculator-app-main-react-ts/
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Instale as dependencias
+$ npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Inicialize o projeto no navegador
+$ npm start
 
-### `npm run eject`
+# Para criar o arquivo de produção
+$ npm run build
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# A aplicação será acessada na porta 3000,
+acesse pelo navegador: http://localhost:3000
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Colaboradores
+Vitor Falcao\
+<img style="width: 100px" src="https://avatars.githubusercontent.com/u/29690449?v=4" alt="imagem desenvolvedor">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Next
+- [ ] Aprimorar algumas tipagens definidas como any provisoriamente.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contato
+<a href="https://www.linkedin.com/in/vitorfalcaodesenvolvedor/"> Linkedin </a>
